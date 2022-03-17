@@ -8,25 +8,25 @@ Data is from the public source, containing the different property parameters of 
 ## Structure
 (1) Introduction.
 
-Explain the Stochastic Gradient Descent's mechanism of action in the Neural Network.
+- Explain the Stochastic Gradient Descent's mechanism of action in the Neural Network.
 
 (2) Data preprocessing
 
-Scaling the data to stabilize the gradient descent.
+- Scaling the data to stabilize the gradient descent.
 
 (3) Build Neural Network and predict.
 
-• Define the model as Sequential MLP. 
+- Define the model as Sequential MLP. 
 
-•Architect the network as the input being 8, the hidden layer being 5, output being 1.
+- Architect the network as the input being 8, the hidden layer being 5, output being 1.
 
-• Select Stochastic Gradient Descent as the algorithm to perform the optimization procedure.
+- Select Stochastic Gradient Descent as the algorithm to perform the optimization procedure.
 
-• Choose MSE as the loss function.
+- Choose MSE as the loss function.
 
-• Evaluate predictions using MSE, RMSE, MAE.
+- Evaluate predictions using MSE, RMSE, MAE.
 
-• To avoid overfitting, a dropout layer with 10% dropout is inserted between the first hidden layer and the output layer.
+- To avoid overfitting, a dropout layer with 10% dropout is inserted between the first hidden layer and the output layer.
 
 ## Conclusion
 The model can predict the result pretty well:
