@@ -6,15 +6,15 @@ The goal is to predict the compressive strength of a kind of Concrete.
 Data is from the public source, containing the different property parameters of the concrete.
 
 ## Structure
-(1) Introduction.
+### Introduction
 
 - Explain the Stochastic Gradient Descent's mechanism of action in the Neural Network.
 
-(2) Data preprocessing
+### Data preprocessing
 
 - Scaling the data to stabilize the gradient descent.
 
-(3) Build Neural Network and predict.
+### Build Neural Network and predict.
 
 - Define the model as Sequential MLP. 
 
